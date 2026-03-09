@@ -26,7 +26,7 @@ A simple two-page Flask website with a persistent left-side navigation sidebar.
 
 3. **Install dependencies:**
    ```
-   pip install flask
+   pip install flask pyopenssl
    ```
 
 4. **Start the development server:**

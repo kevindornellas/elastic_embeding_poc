@@ -19,8 +19,11 @@ iframe {
 
 {% block content %}
 <iframe
-    src="https://tnf.staging.elasticsuite.com/#explore"
+    src="https://tnf.staging.elasticsuite.com/"
     title="TNF ElasticSuite"
-    allowfullscreen>
+    allowfullscreen
+    allow="storage-access *; fullscreen *; clipboard-read *; clipboard-write *; autoplay *"
+    referrerpolicy="no-referrer-when-downgrade"
+    credentialless>
 </iframe>
 {% endblock %}
